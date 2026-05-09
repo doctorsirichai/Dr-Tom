@@ -1,152 +1,195 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DR.TOM Official</title>
+<title>ThaiLao Connect</title>
 
 <style>
-
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
-scroll-behavior:smooth;
+font-family:Arial, sans-serif;
 }
 
 body{
-background:#071426;
+background:#0d0d0d;
 color:white;
 }
 
+.container{
+max-width:1400px;
+margin:auto;
+}
+
 nav{
-position:sticky;
-top:0;
-background:#071426;
-padding:25px 8%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-border-bottom:1px solid rgba(255,255,255,.1);
-z-index:999;
+padding:25px 60px;
+border-bottom:1px solid rgba(212,175,55,.2);
 }
 
 .logo{
-font-size:32px;
+font-size:28px;
 font-weight:bold;
-color:#d4af37;
+color:#D4AF37;
+letter-spacing:2px;
 }
 
 .menu a{
 color:white;
 text-decoration:none;
 margin-left:30px;
+font-size:15px;
 }
 
 .hero{
-min-height:100vh;
+height:90vh;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:40px;
+padding:20px;
 }
 
-.hero h1{
-font-size:72px;
-color:#d4af37;
+.hero-box{
+max-width:900px;
+}
+
+.subtitle{
+color:#D4AF37;
+letter-spacing:3px;
 margin-bottom:20px;
+font-size:14px;
 }
 
-.hero h2{
-font-size:40px;
-margin-bottom:20px;
+h1{
+font-size:70px;
+line-height:1.2;
+margin-bottom:25px;
 }
 
-.hero p{
-font-size:24px;
-opacity:.8;
+.desc{
+font-size:20px;
+color:#cccccc;
 margin-bottom:40px;
+line-height:1.7;
 }
 
 .btn{
 display:inline-block;
-padding:18px 40px;
-background:#d4af37;
+padding:18px 45px;
+background:#D4AF37;
 color:black;
 text-decoration:none;
 font-weight:bold;
-border-radius:40px;
+border-radius:50px;
+font-size:18px;
 }
 
 .section{
-padding:100px 8%;
+padding:100px 60px;
 }
 
-.section h2{
-font-size:42px;
-color:#d4af37;
-margin-bottom:40px;
+.title{
+font-size:40px;
+color:#D4AF37;
+margin-bottom:50px;
+text-align:center;
 }
 
-.card-grid{
+.cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:30px;
 }
 
 .card{
-background:#10233d;
+background:#161616;
 padding:40px;
+border:1px solid rgba(212,175,55,.2);
 border-radius:20px;
-line-height:1.8;
+text-align:center;
+}
+
+.card h3{
+color:#D4AF37;
+margin-bottom:20px;
+font-size:24px;
+}
+
+.card p{
+color:#cccccc;
+line-height:1.7;
 }
 
 footer{
 text-align:center;
-padding:50px;
-opacity:.7;
+padding:40px;
+border-top:1px solid rgba(212,175,55,.2);
+color:#999;
 }
 
-</style>
+@media(max-width:768px){
 
+h1{
+font-size:42px;
+}
+
+nav{
+padding:20px;
+}
+
+.section{
+padding:60px 20px;
+}
+
+}
+</style>
 </head>
 <body>
 
+<div class="container">
 
 <nav>
 
 <div class="logo">
-DR.TOM
+THAILAO CONNECT
 </div>
 
 <div class="menu">
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#portfolio">Portfolio</a>
-<a href="#contact">Contact</a>
+<a href="#">Home</a>
+<a href="#">Tours</a>
+<a href="#">Partners</a>
+<a href="#">Contact</a>
 </div>
 
 </nav>
 
 
-
 <section class="hero">
 
-<div>
+<div class="hero-box">
 
-<h1>DR.TOM</h1>
+<div class="subtitle">
+PREMIUM CROSS-BORDER EXPERIENCE
+</div>
 
-<h2>Dr.ศิริชัย เมืองโคตร</h2>
+<h1>
+ประตูเชื่อมการเดินทาง<br>
+แห่งลุ่มน้ำโขง
+</h1>
 
-<p>
-Digital • Research • Technology
-</p>
+<div class="desc">
+Thailand • Laos • Mekong Experience<br>
+Sacred Journey • Culture • Business • Nature
+</div>
 
-<a class="btn" href="#about">
-Explore
+<a class="btn" href="#">
+Book Now
 </a>
 
 </div>
@@ -154,83 +197,54 @@ Explore
 </section>
 
 
+<section class="section">
 
-<section class="section" id="about">
-
-<h2>About</h2>
-
-<div class="card">
-
-นักวิจัย นักพัฒนา และที่ปรึกษาด้านงานวิชาการ เทคโนโลยี และการเปลี่ยนผ่านสู่โลกดิจิทัล
-
+<div class="title">
+Signature Routes
 </div>
 
-</section>
-
-
-
-<section class="section" id="services">
-
-<h2>Services</h2>
-
-<div class="card-grid">
+<div class="cards">
 
 <div class="card">
-งานวิจัยระดับปริญญาโท–เอก
+<h3>สายบุญ</h3>
+<p>
+พระธาตุพนม<br>
+พระธาตุอินฮัง<br>
+พระธาตุโพน
+</p>
 </div>
 
 <div class="card">
-AI in Education
+<h3>สายธรรมชาติ</h3>
+<p>
+แก่งกะเบา<br>
+แม่น้ำโขง<br>
+Sunset Cruise
+</p>
 </div>
 
 <div class="card">
-Digital Strategy
-</div>
-
-<div class="card">
-Business Consulting
+<h3>สายธุรกิจ</h3>
+<p>
+Mukdahan<br>
+Savannakhet<br>
+Cross Border Business
+</p>
 </div>
 
 </div>
 
 </section>
-
-
-
-<section class="section" id="portfolio">
-
-<h2>Portfolio</h2>
-
-<div class="card">
-
-Development of Entrepreneurial Leadership Indicators
-
-</div>
-
-</section>
-
-
-
-<section class="section" id="contact">
-
-<h2>Contact</h2>
-
-<div class="card">
-
-ข้อมูลติดต่อจะเพิ่มภายหลัง
-
-</div>
-
-</section>
-
 
 
 <footer>
 
-© DR.TOM Official
+ThaiLao Connect © 2026<br>
+Dr.ศิริชัย เมืองโคตร
 
 </footer>
 
+</div>
 
 </body>
 </html>
